@@ -1,6 +1,8 @@
 import 'dotenv/config';
 import { get } from 'env-var';
 
+/* Adaptador para las variables de entorno usando la librería env-var, para acceder a las envs
+solo necesitaremos acceder a las keys de este objeto */
 export const envs = {
   PORT: get('PORT')
     .required()

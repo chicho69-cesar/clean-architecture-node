@@ -11,7 +11,7 @@ import { Server } from './presentation/server';
 
 async function main() {
   /* 
-  Nos conectamos a la base de datos dependiendo del valor de DB_TYPE en las variables de entorno.
+    Nos conectamos a la base de datos dependiendo del valor de DB_TYPE en las variables de entorno.
   */
   switch (envs.DB_TYPE) {
     case 'postgres':
